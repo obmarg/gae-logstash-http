@@ -9,7 +9,7 @@ app = Flask(__name__)
 '''
 
 def _timestamp_to_iso(ts):
-    return datetime.fromtimestamp(log['start_time']).isoformat()
+    return datetime.fromtimestamp(ts).isoformat()
 
 
 def _to_logstash_format(log):
