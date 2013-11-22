@@ -4,8 +4,6 @@ from datetime import datetime
 from flask import Flask, request
 app = Flask(__name__)
 
-app.config.DEBUG = True
-
 '''
 {"@source":"unknown","@type":null,"@tags":[],"@fields":{},"@message":"Hello world","@timestamp":"2012-06-26T15:58:20.135353Z"}
 '''
